@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+cd $ETROBO_HRP3_WORKSPACE
+git init
+git remote add origin https://github.com/UserName/etrobo_workspace.git
+git pull origin main
+git checkout main
